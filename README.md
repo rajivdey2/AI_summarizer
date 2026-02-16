@@ -8,8 +8,7 @@ A simple, modern desktop-like web GUI application that lets you:
 
 All processing happens **locally** — no API keys, no cloud dependency.
 
-https://github.com/yourusername/your-repo-name/assets/12345678/abcdef12-3456-7890-abcd-ef1234567890  
-*(replace with your own demo GIF/video later)*
+ 
 
 ## ✨ Features
 
@@ -27,8 +26,8 @@ https://github.com/yourusername/your-repo-name/assets/12345678/abcdef12-3456-789
 | Backend     | Node.js + Express          |
 | LLM         | Ollama + llama3 (8B/70B)   |
 | Frontend    | React + Vite + Tailwind    |
-| Styling     | Tailwind CSS + shadcn/ui   |
-| State       | Zustand / React Context    |
+
+
 
 ## 🚀 Quick Start (Recommended)
 
@@ -49,30 +48,13 @@ https://github.com/yourusername/your-repo-name/assets/12345678/abcdef12-3456-789
    # After installation, verify it works
    ollama --version
 ## Download and run ollama
-# Recommended: 8B model (good balance of speed & quality)
+Recommended: 8B model (good balance of speed & quality)
 ollama pull llama3:8b
 
-# OR — better quality but slower / needs more RAM
-# ollama pull llama3:70b
+OR — better quality but slower / needs more RAM
+ollama pull llama3:70b
 
-# Start the model (can keep this terminal open)
+Start the model (can keep this terminal open)
 ollama run llama3
 
-llm-summarizer-gui/
-├── client/               # React + Vite frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.jsx
-│   ├── public/
-│   └── package.json
-│
-├── server/               # Node.js / Express backend
-│   ├── index.js
-│   ├── routes/
-│   └── package.json
-│
-├── README.md
-└── .gitignore
-   
-   
+ 
